@@ -14,12 +14,22 @@ function App() {
     );
 }
 
-function NewsArticle() {
+const arr = Array.apply(null, Array(200))
+
+function MyApp() {
+    return (<div>My First React App 
+        { 
+        arr.map((x,idx) => NewsArticle(idx))
+        }
+        </div>);
+}
+
+function NewsArticle(idx) {
     return (
-        <article>
+        <article key={idx}>
             <h1>Article</h1>
         </article>
     )
 }
 
-export { App };
+export { App, MyApp };

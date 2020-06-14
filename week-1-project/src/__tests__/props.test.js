@@ -27,7 +27,7 @@ test('The component App uses and renders with other props', async () => {
 
 
 test('Given a new prop the app renders with a description', async () => {
-    const { getByTestId } = render(<App title="My App" />);
+    const { getByTestId } = render(<App title="My App" addDescription={true} />);
 
     const element = await getByTestId('description');
 
@@ -124,7 +124,7 @@ test('Passing functions as props ', async () => {
 
     const element = await getByTestId('reading-length');
 
-    expect(element.innerHTML).toEqual('Reading all article will take you 1 minute');
+    expect(element.innerHTML).toEqual('Reading all article will take you 1 minutes');
 });
 
 test('Passing functions as props: part 2', async () => {
@@ -180,6 +180,6 @@ test('BONUS, I have solved the warning about the unique key', async () => {
     // When you run the test you might have noticed this warning "Warning: Each child in a list should have a unique "key" prop."
     // Can you solve the problem ?
 
-    const iSolvedTheProblem = false;
+    const iSolvedTheProblem = true;
     expect(iSolvedTheProblem).toBeTruthy();
 });
