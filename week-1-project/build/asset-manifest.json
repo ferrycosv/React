@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/React/week-1-project/build/static/js/main.2d112886.chunk.js",
+    "main.js.map": "/React/week-1-project/build/static/js/main.2d112886.chunk.js.map",
+    "runtime-main.js": "/React/week-1-project/build/static/js/runtime-main.f31c1ab3.js",
+    "runtime-main.js.map": "/React/week-1-project/build/static/js/runtime-main.f31c1ab3.js.map",
+    "static/js/2.33dab03b.chunk.js": "/React/week-1-project/build/static/js/2.33dab03b.chunk.js",
+    "static/js/2.33dab03b.chunk.js.map": "/React/week-1-project/build/static/js/2.33dab03b.chunk.js.map",
+    "index.html": "/React/week-1-project/build/index.html",
+    "precache-manifest.17d126b25f2894c9ebd6232781e87fdc.js": "/React/week-1-project/build/precache-manifest.17d126b25f2894c9ebd6232781e87fdc.js",
+    "service-worker.js": "/React/week-1-project/build/service-worker.js",
+    "static/js/2.33dab03b.chunk.js.LICENSE.txt": "/React/week-1-project/build/static/js/2.33dab03b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f31c1ab3.js",
+    "static/js/2.33dab03b.chunk.js",
+    "static/js/main.2d112886.chunk.js"
+  ]
+}
