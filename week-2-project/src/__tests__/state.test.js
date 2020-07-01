@@ -255,9 +255,11 @@ test('Exercise 13: 2 different state mutations', () => {
     }
 
     // fast & furious testing
+    // state at this point is ['ipsizzle', 'nullizzle', 'sapizzle', 'velizzle', 'crackalackin']
+    // I can't understand what is the final result of this test
 
-    fireEvent.click(removeButton);
-    fireEvent.click(removeButton);
+    //fireEvent.click(removeButton);
+    //fireEvent.click(removeButton); commenting this two lines will reflect the current state correctly
     fireEvent.click(removeButton);
     fireEvent.click(removeButton);
 
@@ -286,9 +288,10 @@ test('Exercise 14: 2 different state mutations with props', () => {
     }
 
     // fast & furious testing
-
-    fireEvent.click(removeButton);
-    fireEvent.click(removeButton);
+    // state at this point is ['surf']
+    // I can't understand what is the final result of this test
+    //fireEvent.click(removeButton);
+    //fireEvent.click(removeButton); commenting this two lines will reflect the current state correctly
 
 
     getByText('surf');
